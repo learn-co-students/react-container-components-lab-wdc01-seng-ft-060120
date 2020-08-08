@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import 'semantic-ui-css/semantic.min.css'
 
 import LatestMovieReviewsContainer from './components/LatestMovieReviewsContainer';
 import SearchableMovieReviewsContainer from './components/SearchableMovieReviewsContainer';
@@ -7,7 +8,7 @@ import SearchableMovieReviewsContainer from './components/SearchableMovieReviews
 ReactDOM.render(
   <div className="app">
     <SearchableMovieReviewsContainer />
-    <LatestMovieReviewsContainer />
+    {/* <LatestMovieReviewsContainer /> */}
   </div>,
   document.getElementById('root')
 );
